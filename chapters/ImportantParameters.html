@@ -1,0 +1,99 @@
+<!DOCTYPE HTML>
+<!--
+	Strata by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Important Parameters</title>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/png" href="../images/LByellow.png"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<style type="text/css">
+		<!--
+		.tab { text-indent: 40px; }
+		-->
+		</style>
+	</head>
+	<body id="top">
+
+		<!-- Header -->
+			 <topbar id="topbar">
+
+                                <ul class="actions fit">
+                                         <li>
+                                                <a href="../index.html" class="button fit">SOP4CV Main Page</a>
+                                        </li>
+                                        <li>
+                                                <a href="../HowThisCameAbout.html" class="button fit">Origin Story</a>
+                                        </li>
+                                        <li>
+                                                <a href="../BuyMeABeer.html" class="button fit">Buy Me A Beer</a>
+                                        </li>
+                                        <li>
+                                                <a href="../WallsOfFame.html" class="button fit">Walls Of Fame</a>
+                                        </li>
+                                        <li>
+                                                <a href="https://goo.gl/forms/1GjnSbUzVlwVvvx02" class="button fit">Contact Me</a>
+                                        </li>
+                                </ul>
+
+
+
+                        </topbar>
+
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- One -->
+					<section id="one">
+							<h1>Important Parameters</h1>
+							<h2>Solvent Window</h2>
+						<p class="tab"><b>After finding the open circuit potential and compensating for the solution resistance, one can begin exploring the maximum and minimum potentials that the solvent can experience before the electrolyte or the solvent begins to get reduced or oxidized.  This range of potentials is known as the solvent window. A bit of caution should be taken when attempting to find the width of the solvent window; because they are demarcated by a large increase or decrease in current, owing to the direct oxidation or reduction of the solvent or electrolyte, usually causing decomposition.  Scanning to unnecessarily high or low potentials (past the edge of the solvent window) might lead to a coating on, or chemical modification of, the working electrode.  Any type of electrode modification during the course of an experiment will inhibit electron transfer from the electrode to species in solution, meaning that perfectly normal waves may be hidden from you.</b><br /></p>
+						<center><img src="../images/potentialwindow-revwave-graph-full.png" title="(Top) Well behaved waves in a CV that has reversed direction before reaching the edge of the solvent window. (Bottom) Same CV where the potential has passed the solvent window and the working electrode was coated with decomposed solvent or electrolyte salt." style="width:350px"></center><h4 align=center>hover over pic for description</h4><br />
+						<p class="tab"><b>If the potentiostat software comes with a “reverse sweep direction” button, it comes in handy here, for a standard button electrode (area about 1 cm<sup>2</sup>) the direction of the potential sweep should be reversed before an increase of 5 – 10 µA at a slow scan rate. When setting up an experiment, it is best to scan over the narrowest possible range of potentials.  For instance, if the reduction wave of interest is at –1 V, the CV can safely be reversed a few hundred millivolts after the peak where the current flattens out. Having a narrow potential window also saves time, especially at slow scan rates.</b></p>
+							<h2>Scan Rate</h2>
+						<p class="tab"><b>The scan rate parameter is most often represented with the greek letter nu (ν). Collecting CVs at various scan rates allows the researcher to obtain important information about the analyte. Most analyses of CVs depend on the assumption that diffusion is the only mode of analyte transport (see <a href="TransportOfMoleculesInSolution.html">Transport of Molecules in Solution</a>).  For the study of freely moving molecules in solution with a normal sized working electrode, a minimum scan rate of 50 millivolts per second (mV/s) is recommended, for if the scan rate is any slower, there is a risk that analyte will be transported to or from the electrode through processes other than diffusion. For example, at a potential where analyte X can be reduced to X<sup>–</sup>, the population of X becomes depleted in the layer of solution next to the electrode known as the diffusion layer.  If the scan rate is too slow, X from the bulk solution can be transported into the diffusion layer through convection, which interferes with subsequent analysis.</b><br /></p>
+						<p class="tab"><b>With a normal sized (0.5 – 1 cm<sup>2</sup>) electrode the maximum scan rate is approximately 2 V/s.  This is due to the tendency of double layer charging current to obscure the peaks of interest. Double layer charging current is current that comes from the rearrangement of solution molecules at the electrode surface as a result of the changing electrode potential. The full explanation of double layer charging current is not really necessary for an introduction to electrochemistry, just know that double layer charging current increases with increased scan rate and electrode area.  Scan rates as high as 1,000,000 V/s are possible with microelectrodes, which have microscopic surface areas, but personally, I've never had a successful experiment with a microelectrode.</b><br /></p>
+						<center><a href="http://orders.gamry.com/platinum-microelectrode.html?__hstc=30835680.3b6f2983fa63ca9ab7b0b3adf53b392b.1474741033744.1474840217431.1474844493216.5&__hssc=30835680.4.1474844493216&__hsfp=2034255857"><img src="../images/pictures/GamryPtMicroelectrode.jpg" title="Commercially available platinum microelectrode with a surface diameter of 10 microns. Click for more info." style="width:350px"></a></center><h4 align=center>hover over pic for description</h4><br />
+							<h2>Current Threshold</h2>
+						<p class="tab"><b>On some, but not all, electrochemical software, the potentiostat software asks for the scale it should use to measure current. If the value that is entered for this parameter is too low, the current might hit a maximum and no record of any events beyond that maximum will show up in the data file.  Familiarity with CVs will aid in approximating this value.  When approximating this value for the first time, one should remember that, for a one electron transfer event, the current increases with increased surface area of the electrode, increased scan rate, or increased concentration of the analyte. A one electron wave with an analyte at a concentration of 0.5 mM commonly peaks anywhere from 2 – 10 µA on a 1 cm<sup>2</sup> electrode.</b><br /></p>	
+						<center><img src="../images/currentthreshold.png" title="(Black) CV of a catalyst in the presence of substrate.  (Red) Same CV collected on a potentiostat with the current threshold set too low." style="width:350px"></center><h4 align=center>hover over pic for description</h4><br />
+						<ul class="actions fit">
+							<li><a href="PreliminaryChecks.html" class="button fit">Previous Section - Preliminary Checks</a></li>
+							<li><a href="../index.html#WaveCharacteristics" class="button fit">Next Section - Wave Characteristics</a></li>
+						</ul>
+					</section>
+
+						<!-- Three -->
+						<section id="three">
+                                                 <div align=middle>
+						<a href="../BuyMeABeer.html" style="border-bottom:none"><img src="../images/pbr.jpg" height="75" style="margin: 0 5px 0 100px" title="Buy Me a PBR" /></a><a href="../BuyMeABeer.html" style="border-bottom:none"><img src="../images/Harpoon.png" height=150 style="margin: 0 0px 0 5px" title="Buy Me a Craft Beer" /></a><a href="../BuyMeABeer.html" style="border-bottom:none"><img src="../images/titos.jpg" height=200 style="margin: 0 50px 0 0px" title="Buy Me a Fancy Cocktail" /></a>
+
+                                                <a href="../BuyMeABeer.html"><h5 align=center>Did I earn one of these yet?</h5></a><br />
+
+                                                <div class="inner">
+                                                        <ul class="copyright">
+                                                        <a rel="license"  href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><h7><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Standard Operating Procedures for Cyclic Voltammetry</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.sop4cv.com" property="cc:attributionName" rel="cc:attributionURL">Daniel Graham</a><br /> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.</h7>
+                                                        </ul>
+                                                </div>
+                                        </section>
+
+			</div>
+
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

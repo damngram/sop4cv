@@ -1,0 +1,115 @@
+<!DOCTYPE HTML>
+<!--
+	Strata by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Catalysis</title>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/png" href="../images/LByellow.png"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<style type="text/css">
+		<!--
+		.tab { text-indent: 40px; }
+		-->
+		</style>
+	</head>
+	<body id="top">
+
+		<!-- Header -->
+			<topbar id="topbar">
+
+                                <ul class="actions fit">
+                                         <li>
+                                                <a href="../index.html" class="button fit">SOP4CV Main Page</a>
+                                        </li>
+                                        <li>
+                                                <a href="../HowThisCameAbout.html" class="button fit">Origin Story</a>
+                                        </li>
+                                        <li>
+                                                <a href="../BuyMeABeer.html" class="button fit">Buy Me A Beer</a>
+                                        </li>
+                                        <li>
+                                                <a href="../WallsOfFame.html" class="button fit">Walls Of Fame</a>
+                                        </li>
+                                        <li>
+                                                <a href="https://goo.gl/forms/1GjnSbUzVlwVvvx02" class="button fit">Contact Me</a>
+                                        </li>
+                                </ul>
+
+
+
+                        </topbar>
+
+	
+		<!-- Main -->
+			<div id="main">
+
+				<!-- One -->
+					<section id="one">
+							<h1>Catalysis</h1>
+						<p class="tab"><b>There are whole books written on electrocatalysis, much more than can be covered here. This is an attempt to give beginners enough information to do an initial screen and know where to look for next steps, but researchers often spend years using complicated analyses to investigate the details of an electrocatalyst to figure out its mechanism, rate of catalysis, and ways to improve them.</b></p>
+							<h2>What is Catalysis?</h2>
+						<p class="tab"><b>In the electrochemical sense, a catalyst will induce an electron transfer to a substrate at a mild electrode potential, without being consumed or destroyed. For example, assume we have a substrate molecule in solution that we want to reduce by one electron, we collect a CV of it and see that it begins to accept electrons from the electrode at an extreme negative potential. Also assume we know of a molecule which we think is a candidate for catalyzing this electron transfer to our substrate, we collect a CV of it and see that it has a reversible electron transfer at a potential much more positive of our substrate.  If we then make a solution of our catalyst and an excess of our substrate, we might see a large increase in current when our working electrode approaches the E<sub>1/2</sub> of our catalyst molecule, indicating that once the catalyst gets reduced by the electrode, it then transfers the electron to our substrate molecule, thereby facilitating the overall reaction of substrate reduction at a more mild potential.</b></p>
+						<center><img src="../images/substrate-catalyst-graph.png" title="Graph showing representative CVs of a solution containing a catalyst by itself (black), a substrate by itself (blue), and both catalyst and excess substrate (red)." style="width:500px"></center><h4 align=center>hover over pic for description</h4><br />
+						<p class="tab"><b>In terms of our potential energy "hill and valley" representation of reactions, we can interpret the role of a catalyst as providing a lower energy intermediate through which the reaction can proceed, which has the effect of speeding it up or allowing it to occur with less energy input. This is true for all types of catalysis, not just electrocatalysis.</b></p>
+						<center><img src="../images/PECurve-catalyst-substrate.png" title="The potential energy landscape of a reaction with (right) and without (left) a catalyst.  The catalyst provides a lower energy intermediate than the potential energy peak of the uncatalyzed reaction, and therefore requires less energy input to drive the reaction forward.  This lower requirement of energy input manifests itself as the reaction proceeding at a less extreme potential than it would in the absense of the catalyst." style="width:700px"></center><h4 align=center>hover over pic for description</h4><br />
+						<p class="tab"><b>There are two types of molecular electrocatalysts; redox catalysts and chemical catalysts.  A redox catalyst is effectively an electron (or hole) shuttle which does not interact with the substrate, whereas chemical catalysts transfer electrons while forming a transient bond with the substrate.</b></p>
+						<center><img src="../images/chemical-redox-catalysis.png" title="Figure showing the difference between redox catalysis and chemical catalysis.  Redox catalysis involved the shuttling of electrons from catalyst to substrate without the formation of a chemical bond, whereas chemical catalysis proceeds through the chemical steps of bond formation and cleavage." style="width:500px"></center><h4 align=center>hover over pic for description</h4><br />
+						<p class="tab"><b>Effective redox catalysts are reduced or oxidized at more mild potentials than their target substrates.  After “getting charged” at the electrode, they exchange an electron with the substrate molecule and then return to the electrode to repeat the process, resulting in a large catalytic wave. This begs the question, "If the reduction potential of the redox catalyst is at a more mild potential than the substrate, meaning the electron transfer from the catalyst to the substrate is energetically unfavorable, why does catalysis happen?" </b></p>
+						<p class="tab"><b>One has to remember that even though the reduction of X may be thermodynamically unfavorable (if the electrode potential is positive of the E<sup>0</sup>(X/X<sup>–</sup>) for the reduction), some electron transfer still occurs according to the Nernst equation, and a concentration of X<sup>–</sup> is present at the electrode surface.  What a redox catalyst does is effectively become a “3D electrode”, with an “electrode potential” equal to the E<sup>0</sup> of the redox catalyst, by flooding the area near the electrode with charged redox catalyst.  Since the “effective area” of the electrode increases, so does the equilibrium concentration of X<sup>–</sup>, which drives the conversion. The reaction can be driven forward if the electron transfer results in an irreversible chemical step (such as a bond making or breaking).  This should be obvious to anyone familiar with LeChatelier’s principle.  If you're not familiar with LeChatelier's principle, get familiar with it, it's important for understanding equilibria.</b></p>
+						<p class="tab"><b>Chemical catalysts perform essentially the same task as redox catalysts, except they form chemical bonds with their substrates in order to drive electron transfer.  They often contain redox-active transition metals complexed by ligands.  These transition metal complexes can be “activated” by reducing or oxidizing them at an electrode, after which they can proceed to perform the magic that they are known for, by oxidatively adding, reductively eliminating, or serving as a platform on which chemical reactions can easily occur.  This leads to multi-step catalysis and more complicated analysis.  An easy way to evaluate chemical catalysts is by their effective rate, but through deeper analysis it is possible to tease apart the mechanism and the rate associated with each step.</b></p>
+							<h2>Screening Catalysts</h2>
+						<p class="tab"><b>The simplest test to determine whether the “catalyst” might catalyze anything is to compare CVs of the substrate molecule alone, the catalyst molecule alone, and a solution of both. It is extremely important to ensure that the substrate doesn't undergo electron transfer directly from the electrode at the potential where the active catalyst in generated.  Meaning that the wave observed in a CV of the substrate alone displays a wave at a more extreme potential than the catalyst molecule. As always, a large amount of data can be obtained by collecting CVs at varying scanrates and, if it's possible to add more substrate without contaminating the solution with unwanted impurities, at a number of different substrate concentrations.  In most cases of catalysis, this will result in the continued increase of the "catalytic wave", a substantial increase in current around the potential when the active catalyst (X<sup>–</sup> in our case) is generated.</b></p>
+						<center><img src="../images/catalyst-increasingsubstrate.png" title="Graph showing how the catalytic wave increases in size as more substrate is added to solution." style="width:500px"></center><h4 align=center>hover over pic for description</h4><br />
+						<p class="tab"><b>In many cases, the catalytic wave will seem to grow right out of the wave that generates the active catalyst.  If this catalyst feature is reversible in the absence of substrate, the return wave (oxidation of X<sup>–</sup> back to X) will gradually disappear as more substrate is added.  This is due to the fact that, in the case of electrocatalyst X that becomes active as X<sup>–</sup>, the oxidation of X<sup>–</sup> can only be observed if X<sup>–</sup> is stable in solution.  In the presence of substrate, X<sup>–</sup> reacts with a substrate molecule and transfers its electron, becoming X.  If enough substrate is in solution, no significant amount of X<sup>–</sup> can be found near the electrode on the return sweep.</b></p>
+						<p class="tab"><b> Reasonably fast electrocatalysts (those with a high turnover frequency) will display an increase in current near (even before) the reduction potential at which the catalyst becomes active.  This is due to the fact that even before the E<sub>1/2</sub> is reached, active catalyst is produced (in concentrations according to the Nernst equation, assuming a reversible electron transfer) at the electrode and may immediately start to react with substrate. Take our X/X<sup>–</sup> example where X<sup>–</sup> is the active species that transfers an electron to a substrate, becoming X afterwards. 1% of the catalyst molecules at the electrode will be in the form of X<sup>–</sup> at 120 mV more positive of its E<sub>1/2</sub>(X/X<sup>–</sup>). Even at dilute concentrations, this is millions of millions of molecules, which then react with substrate.  If the catalyst rapidly reacts with and transfers an electron to a substrate molecules, more electrons are transferred immediately from the electrode to molecules of X in order to maintain the 1% concentration of X<sup>–</sup> at the electrode dictated by the Nernst equation. As more substrate diffuses in from the solution, more electrons are transferred to substrate molecules through the catalyst, resulting in increased current before the electrode potential even reaches E<sub>1/2</sub>.</b></p>
+						<center><img src="../images/substrate-catalyst-graph-nosubstrate.png" title="Figure showing the possibility (in the case of a very fast acting catalyst) of a catalytic wave 'taking off' before the potential reaches that of the catalytic wave in the absense of substrate." style="width:300px"></center><h4 align=center>hover over pic for description</h4><br />
+						<p class="tab"><b>An interesting case to consider is the two electron reduction of a substrate, which is a very common occurrence. Assuming our catalyst X can also exist as X<sup>+</sup>, a two electron transfer from X<sup>–</sup> would result in the formation of X<sup>+</sup> near an electrode which was at a potential near E<sub>1/2</sub>(X/X<sup>–</sup>). The electrode is at a potential where reduction of X<sup>+</sup> to X is extremely favorable energetically, and occurs immediately. This drives the rise in current.</b></p>
+						<center><img src="../images/X+XX-.png" title="Figure showing the energetic favorability of reducing X⁺." style="width:350px"></center><h4 align=center>hover over pic for description</h4><br />
+						<p class="tab"><b>If the electrocatalyst can tolerate a large excess of substrate, the catalytic wave might plateau instead of peak.  A plateau occurs when the reaction is limited not by the diffusion of the catalyst or substrate, but by some other step, such as an electron transfer or a chemical step.  Depending on the mechanism of catalysis, information about the rate constants of certain steps can be drawn from the plateau current (i<sub>pl</sub>), but this is beyond the scope of this text.</b></p>
+						<center><img src="../images/catalyst-plateau.png" title="Figure showing the possibility that (in the case of excess substrate) the catalytic wave doesn't peak and instead plateaus." style="width:450px"></center><h4 align=center>hover over pic for description</h4><br />
+							<h2>Shortfalls of Cyclic Voltammetry</h2>
+						<p class="tab"><b>It is important to remember that an increase in current is not necessarily the result of catalysis, as it might be the case that the substrate reacts with the “catalyst” and causes it to decompose, which could result in the release of other redox active fragments and increased current.  In order to determine whether catalysis is occurring it is necessary to analyze the products using a rotating ring disk electrode or controlled potential electrolysis (CPE). The researcher should not only confirm the identity of the products using gas chromatography, mass spectrometry, or NMR, but also calculate the <i>faradaic efficiency</i> of the catalyst. The faradaic efficiency is basically the percentage of the electrons that transferred between the working electrode and the desired substrate, it can be found by dividing the number of electrons needed to make the detected amount of product by the total charge passed as measured by the potentiostat.</b></p>
+						<p class="tab"><b>A rotating ring disk electrode is a like a normal button working electrode, but an additional conductive ring surrounds it.  The outer ring is electrically insulated from the working electrode and its potential (voltage) can be controlled by the potentiostat. The ring disk electrode is attached to a special rotator that, as its name suggests, causes the electrode to rotate.  This rotation causes the solution to be drawn up to and along the surface of the electrode, meaning that any products from reactions that occur at the center electrode will flow along the surface and some of them will come in contact with the ring. If the products of catalysis are redox active, they can be deteced by the outer ring if it is set to a potential that re-reduces or oxidizes them. For example, if you suspect that hydrogen (H<sub>2</sub>) is the product of catalysis, running a CV (scanning the potential) of the inner working electrode while holding the potential of the ring electrode at a potential that can oxidize H<sub>2</sub> should display oxidation current at the ring electrode immediately after reduction current is observed at the center disk electrode. Using a known, redox active molecule such as ferrocene, you can figure out the maximum amount of material generated at the center electrode can be detected by the ring.  This allows one to get a rough estimate of the faradaic efficiency of the catalyst.</b></p> 
+						<center><img src="../images/rrde.png" title="Example of a rotating ring disk electrode. The two electrodes can be controlled individually, allowing one to detect the generation of redox active molecules." style="width:450px"></center><h4 align=center>hover over pic for description</h4><br />
+						<p class="tab"><b>Controlled potential electrolysis, sometimes called "bulk electrolysis," is a relatively simple technique.  The working electrode is placed in a solution containing catalyst and substrate and held at a potential where catalysis occurs.  When performing CPE, it is necessary to use a two compartment cell in order to separate the working electrode and the counter electrode, as anything reduced (or oxidized) at the working electrode will be re-oxidized (or re-reduced) if it comes in contact with the counter electrode.  Methods of product analysis includes gas chromatography (if the product is a gas), mass spectrometry, or nuclear magnetic resonance spectroscopy.  A magnetic stirbar can be added to intentionally move catalyst and substrate to help the CPE occur faster.  If quantitative methods are available to measure the amount of product that is produced from electrocatalysis, it is possible to measure the faradaic efficiency of the catalyst by simply dividing the product of the number of electrons that are needed to form one product molecule and the amount of product by the number of electrons passed during the CPE.</b></p>
+						<center><img src="../images/BulkElectrolysis-cell.png" title="Example of a cell used for controlled potential (bulk) electrolysis." style="width:500px"></center><h4 align=center>hover over pic for description</h4><br />
+						<ul class="actions fit">
+							<li><a href="IonPairing.html" class="button fit">Previous Section - Ion Pairing</a></li>
+							<li><a href="../BuyMeABeer.html" class="button fit">Next Section - Beer Me</a></li>
+						</ul>
+					</section>
+
+						<!-- Three -->
+						<section id="three">
+                                                 <div align=middle>
+						<a href="../BuyMeABeer.html" style="border-bottom:none"><img src="../images/pbr.jpg" height="75" style="margin: 0 5px 0 100px" title="Buy Me a PBR" /></a><a href="../BuyMeABeer.html" style="border-bottom:none"><img src="../images/Harpoon.png" height=150 style="margin: 0 0px 0 5px" title="Buy Me a Craft Beer" /></a><a href="../BuyMeABeer.html" style="border-bottom:none"><img src="../images/titos.jpg" height=200 style="margin: 0 50px 0 0px" title="Buy Me a Fancy Cocktail" /></a>
+
+                                                <a href="../BuyMeABeer.html"><h5 align=center>Did I earn one of these yet?</h5></a><br />
+
+                                                <div class="inner">
+                                                        <ul class="copyright">
+                                                        <a rel="license"  href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><h7><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Standard Operating Procedures for Cyclic Voltammetry</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.sop4cv.com" property="cc:attributionName" rel="cc:attributionURL">Daniel Graham</a><br /> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.</h7>
+                                                        </ul>
+                                                </div>
+                                        </section>
+
+			</div>
+
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
